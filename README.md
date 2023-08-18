@@ -25,6 +25,7 @@ Teste de *Itálico*
 2. Régua
 3. Clips
 4. Recarga de canetão azul
+5. Borracha
 
 ![Logotipo da Pipz](https://pipz.io/shared/1/files/logo_academy.JPG)
 
