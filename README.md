@@ -19,6 +19,7 @@ Teste de *Itálico*
 - Banana
 - Laranja
 - Abacaxi
+- Maçã
 
 1. Caneta
 2. Régua
