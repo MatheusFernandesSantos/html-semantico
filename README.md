@@ -13,7 +13,7 @@ Teste de *Itálico*
 * Nori
 * Gengibre
 * Pepino
-* Kani
+* 
 
 - Banana
 - Laranja
