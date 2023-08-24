@@ -32,6 +32,7 @@ Teste de *Itálico*
 
 ![Logotipo da Pipz](https://pipz.com/static/images/blog/eddie.png) ![Logotipo da Pipz](https://pipz.com/static/images/blog/eddie.png) ![Logotipo da Pipz](https://pipz.com/static/images/blog/eddie.png) ![Logotipo da Pipz](https://pipz.com/static/images/blog/eddie.png) ![Logotipo da Pipz](https://pipz.com/static/images/blog/eddie.png) ![Logotipo da Pipz](https://pipz.com/static/images/blog/eddie.png)
 
+
 > Não faltem!
 > Estudem
 > Prátique
