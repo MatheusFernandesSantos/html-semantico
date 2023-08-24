@@ -13,7 +13,6 @@ Teste de *Itálico*
 * Nori
 * Gengibre
 * Pepino
-* Gergilim
 * Kani
 
 - Banana
