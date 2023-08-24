@@ -34,9 +34,11 @@ Teste de *Itálico*
 > Não faltem!
 > Estudem
 > Prátique
+> Foco
 
 Método `console.log()` no javascript<br>
 ttt
+
 
 `console.log()` <br>
 `MMMMMMMMMMMMM`
