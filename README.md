@@ -20,6 +20,7 @@ Teste de *Itálico*
 - Laranja
 - Abacaxi
 - Maçã
+- Abacate
 
 1. Caneta
 2. Régua
