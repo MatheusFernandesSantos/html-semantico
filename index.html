@@ -1,21 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt,br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8"> 
-    
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
-</head>
-<body>
-    <header>
-        <h1>HTML Semântico</h1>
-        <h2>Dando Significado às estruturas</h2>
-        <p>Vamos utilizar estruturas semânticas para marcar o contéudo da página</p>
-    </header>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body {
+            color: blueviolet;
+        }
+    </style>
 
-    <h1>HTML Semântico</h1>
-    <h2>Dando Significado às estruturas</h2>
-    <p>Vamos utilizar estruturas semânticas para marcar o contéudo da página</p>
+</head>
+<body style="color:coral;">
+    <header id="topo-pagina">
+        <nav>
+            <!-- Lista Não ordenada -->
+            <ul>
+                <!-- Item de lista -->
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="#sobre-nos">Sobre nós</a>
+                </li>
+
+                <li>
+                    <a href="#contato">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>Título pricipal da página</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquid sunt assumenda commodi, dolorum officia voluptates qui dolore blanditiis saepe non optio soluta voluptatibus eligendi hic est error ipsa nobis?</p>
+        
+    </header>
+    <h2>Título secundário</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate optio reiciendis labore eligendi cumque nesciunt sapiente, harum eveniet et quae maxime nam consequatur assumenda voluptatibus sint facere, autem voluptates ipsa.</p>
+
+
+    <article>
+        <header>
+            <h1>Lorem ipsu, dolor sit amet.</h1>
+            <p>Lorem ipsum dolor sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem at ipsa aut quidem eos aliquam aliquid deleniti ut vero pariatur hic quod quae, ea cupiditate commodi quaerat voluptates id adipisci.</p>
+        </header>
+    </article>
+
+    <section id="sobre-nos">
+
+        <a href="#topo-pagina">Voltar para o topo da página</a>
+    
+        <h2>Sobre nós</h2>
+    
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, molestiae optio unde esse beatae dolor. Doloremque corporis non, quos est esse quia distinctio repellat enim!</p>
+        
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci similique, et est sit doloremque asperiores minus nemo vero aliquam facilis aut ea culpa reprehenderit accusamus sed enim. Animi, optio nulla.</p>
+
+    </section>
+
+    <section id="contato">
+        <h1>Contato</h1>
+
+        <a href="#topo-pagina">Voltar para o topo da página</a>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum rem accusantium enim quos ipsam esse odio eligendi quas similique dicta illo, dolor aspernatur aut architecto minus error at sit soluta.</p>
+    
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque assumenda atque dignissimos sapiente nostrum cum unde recusandae reprehenderit culpa inventore ex voluptatum explicabo, quisquam eligendi. Veritatis dignissimos vel ipsum perspiciatis!</p>
+    
+    </section>
+
+    <footer>
+        <!--Proibido -->
+        <!-- <header></header> -->
+        <p>Link para o <a href="https://github.com/MatheusFernandesSantos">meu Github</a>
+        </p>
+    </footer>
+
 </body>
 </html>
