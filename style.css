@@ -1,4 +1,10 @@
-/* CSS externo (arquivo) */
+:root {
+    --cor-primaria: #16697A ;
+    --cor-secundaria: #DB6400;
+    --cor-terciaria: #FFA62B;
+    --cor-quartenaria: #F8F1F1;
+    --cor-fundo: #cab7b7;
+}
 
 html {
     scroll-behavior: smooth; /* comportamento-da-rolagem: suave */
@@ -11,13 +17,13 @@ body {
     margin-right: 50px; 
     margin: 20px 50px 20px 50px; /* para fazer todos as margens na mesma linha, sentido hórario */
     text-align: justify;
-    background-color: #f2f9ff;
+    background-color:var(--cor-fundo);
 
 }
 
 
 .titulo-de-pagina {
-    color: #526d82;
+    color:var(--cor-primaria);
     line-height: 2;
     font-weight: bold;
     font-size: 22pt;
@@ -26,7 +32,7 @@ body {
 }
 
 .titulo-de-artigo {
-    color: #526d82;
+    color:var(--cor-secundaria);
     line-height: 2;
     font-weight: bold;
     font-size: 18pt;
@@ -35,7 +41,7 @@ body {
 }
 
 .titulo-de-secao {
-    color: #526d82;
+    color:var(--cor-secundaria);
     line-height: 1.8;
     font-weight: bold;
     font-size: 18pt;
@@ -44,7 +50,7 @@ body {
 }
 
 .subtitulo-de-artigo {
-    color: #526d82;
+    color: var(--cor-quartenaria);
     line-height: 1.5;
     font-weight: bold;
     font-size: 14pt;
@@ -54,17 +60,17 @@ body {
 }
 
 p {
-    color: #41505b;
+    color:var(--cor-primaria);
     line-height: 1.2;
 }
 
 .paragrafo-de-artigo {
-    background-color: #dde6ed;
+    background-color:var(--cor-quartenaria);
     padding: 20px 20px 0 20px;
 }
 
 article {
-    border: 8px double #9db2bf;
+    border: 8px double var(--cor-quartenaria);
     padding: 30px;
     margin: 30px 0;
     border-radius: 50px;
