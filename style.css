@@ -1,9 +1,9 @@
 :root {
-    --cor-primaria: #16697A ;
-    --cor-secundaria: #DB6400;
-    --cor-terciaria: #FFA62B;
-    --cor-quartenaria: #F8F1F1;
-    --cor-fundo: #cab7b7;
+    --cor-primaria: brown ;
+    --cor-secundaria: blue;
+    --cor-terciaria: yellow;
+    --cor-quartenaria: #dddd9f;
+    --cor-fundo: beige;
 }
 
 html {
@@ -66,7 +66,7 @@ p {
 
 .paragrafo-de-artigo {
     background-color:var(--cor-quartenaria);
-    padding: 20px 20px 0 20px;
+    padding: 10px 20px 0px 20px;
 }
 
 article {
@@ -74,4 +74,20 @@ article {
     padding: 30px;
     margin: 30px 0;
     border-radius: 50px;
+}
+
+.menu-principal ul {
+    background-color: var(--cor-primaria);
+}
+
+.menu-principal li {
+    color: var(--cor-quartenaria); 
+}
+
+.menu-principal a {
+    color: var(--cor-quartenaria);
+}
+
+p + .paragrafo-de-artigo {
+    padding-top: 0;
 }
