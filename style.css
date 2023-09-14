@@ -1,9 +1,10 @@
+/* Definição de todas as cores da página */
 :root {
     --cor-primaria: brown ;
-    --cor-secundaria: blue;
+    --cor-secundaria: #2064f7;
     --cor-terciaria: yellow;
     --cor-quartenaria: #dddd9f;
-    --cor-fundo: beige;
+    --cor-fundo: #f1f1d6;
 }
 
 html {
@@ -76,9 +77,10 @@ article {
     border-radius: 50px;
 }
 
+/* 
 .menu-principal ul {
     background-color: var(--cor-primaria);
-}
+} */
 
 .menu-principal li {
     color: var(--cor-quartenaria); 
@@ -88,6 +90,37 @@ article {
     color: var(--cor-quartenaria);
 }
 
+/* Para remover espaçamento de linhas de um paragrafo para outro */
 p + .paragrafo-de-artigo {
     padding-top: 0;
+}
+
+/* unvisited link */
+a:link {
+    color: #2064f7;
+}
+
+/* visited link */
+a:visited {
+    color: #aa72ca;
+}
+
+/* mouse over */
+a:hover {
+    color: #0a1a3f;
+}
+
+/* selected link */
+a:active {
+    color: #00ffff;
+}
+
+/* Quando utilizar o fisrt-child o primeiro irmão pode ser 0 h1 */
+#introducao p:first-of-type{
+    border-radius: 20px 0 0 0;
+}
+
+/* Quando utilizar o last-child o ultimo irmão pode etrar em conflito com mais linhas  */
+#introducao p:last-of-type{
+    border-radius: 0 0 20px 0;
 }
