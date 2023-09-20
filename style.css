@@ -1,10 +1,12 @@
 /* Definição de todas as cores da página */
 :root {
     --cor-primaria: brown ;
-    --cor-secundaria: #2064f7;
+    --cor-secundaria: #a6ad3b;
     --cor-terciaria: yellow;
     --cor-quartenaria: #dddd9f;
     --cor-fundo: #f1f1d6;
+    --fonte-primaria: 'Times New Roman', serif ;
+    --fonte-secundaria: Arial, Helvetica, sans-serif; 
 }
 
 html {
@@ -22,13 +24,12 @@ body {
 
 }
 
-
 .titulo-de-pagina {
     color:var(--cor-primaria);
     line-height: 2;
     font-weight: bold;
     font-size: 22pt;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: var(--fonte-secundaria);
 
 }
 
@@ -37,8 +38,7 @@ body {
     line-height: 2;
     font-weight: bold;
     font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif
-
+    font-family: var(--fonte-secundaria);
 }
 
 .titulo-de-secao {
@@ -46,7 +46,7 @@ body {
     line-height: 1.8;
     font-weight: bold;
     font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: var(--fonte-secundaria);
 
 }
 
@@ -70,6 +70,11 @@ p {
     padding: 10px 20px 0px 20px;
 }
 
+/* Para remover espaçamento de linhas de um paragrafo para outro */
+p + .paragrafo-de-artigo {
+    padding-top: 0;
+}
+
 article {
     border: 8px double var(--cor-quartenaria);
     padding: 30px;
@@ -77,22 +82,47 @@ article {
     border-radius: 50px;
 }
 
-/* 
-.menu-principal ul {
+
+/* .menu-principal ul {
     background-color: var(--cor-primaria);
 } */
 
 .menu-principal li {
-    color: var(--cor-quartenaria); 
+    color: var(--cor-quartenaria);
+    display: flex; 
+    line-height: 50px;
+    transition: background, .35s ease-in-out, font .2;
 }
 
 .menu-principal a {
     color: var(--cor-quartenaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 120%;
+    padding: 0 20px;
 }
 
-/* Para remover espaçamento de linhas de um paragrafo para outro */
-p + .paragrafo-de-artigo {
-    padding-top: 0;
+.menu-principal a:hover {
+    background-color: #9daac9;
+
+}
+
+.menu-principal ul{
+    background-color: var(--cor-secundaria);
+    padding: 15px;
+    border-radius: 15px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+a {
+    padding: 20px 20px;
+}
+
+.menu-principal li{
+    margin: 20px 10px;
+    /* display: inline; */
 }
 
 /* unvisited link */
@@ -124,3 +154,4 @@ a:active {
 #introducao p:last-of-type{
     border-radius: 0 0 20px 0;
 }
+
